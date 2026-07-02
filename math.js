@@ -10,5 +10,12 @@ function square(n){
 
 // Takes in a number n and returns true if n is even; false otherwise
 function isEven(n){
-    return n % 2 == 0
+    return n % 2 == 0;
+}
+
+function abs(n) {
+    if(n < 0){
+        n *= -1;
+    }
+    return n;
 }
