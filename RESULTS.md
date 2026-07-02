@@ -12,3 +12,6 @@ isEven(7) // returns false
 abs(12) // returns 12  
 abs(-12) // returns -12
 
+factorial(6) // returns 720  
+factorial(-6) // returns undefined  
+factorial(0) // returns 1
